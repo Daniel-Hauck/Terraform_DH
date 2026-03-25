@@ -6,7 +6,6 @@ terraform {
     }
   }
 
-
   backend "s3" {
     bucket = "amzon-s3-dh"
     key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
