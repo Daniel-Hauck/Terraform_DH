@@ -46,7 +46,6 @@ resource "aws_instance" "demo" {
   }
 }
 
-
 output "instance_id" {
   value = aws_instance.demo.id
 }
