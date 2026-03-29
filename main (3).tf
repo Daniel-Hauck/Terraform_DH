@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "test-s3-dh-lol "
+    bucket = "test-lol-kek-dh"
     key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
     region = "us-east-1"
   }
